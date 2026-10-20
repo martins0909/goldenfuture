@@ -12,20 +12,9 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { ArrowLeft, CheckCircle2, AlertCircle, UserPlus } from 'lucide-react';
 
-const membershipCategories = [
-  'Ordinary Member',
-  'Associate Member',
-  'Senior Member',
-  'Founding Member',
-];
+const membershipCategories = ['Executive and members'];
 
-const contributionPlans = [
-  'Monthly — ₦10,000',
-  'Monthly — ₦25,000',
-  'Monthly — ₦50,000',
-  'Monthly — ₦100,000',
-  'Voluntary / Custom',
-];
+const contributionPlans = ['voluntary/custom'];
 
 export default function ApplyPage() {
   const [submitting, setSubmitting] = useState(false);
