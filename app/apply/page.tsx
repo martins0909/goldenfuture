@@ -12,7 +12,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { ArrowLeft, CheckCircle2, AlertCircle, UserPlus } from 'lucide-react';
 
-const membershipCategories = ['Executive and members'];
+const membershipCategories = ['Executive', 'Member'];
 
 const contributionPlans = ['voluntary/custom'];
 
